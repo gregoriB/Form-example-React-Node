@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.use(express.static(path.join(__dirname, 'client/public/index.html')));
+app.use(express.static(path.join(__dirname, 'client/public')));
 
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
