@@ -1,0 +1,16 @@
+body {
+  color: white;
+  background-color: rgb(119, 22, 22);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+button {
+  margin: 10px;
+}
